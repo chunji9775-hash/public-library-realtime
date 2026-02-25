@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공공도서관 열람실 실시간 현황 | Live Library Status</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="live-dot"></span>공공도서관 실시간 현황</h1>
+            <p class="subtitle">전국 공공도서관 열람실의 좌석 이용 현황을 실시간으로 확인하세요.</p>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="도서관 이름 또는 지역 검색..." autocomplete="off">
+            </div>
+        </header>
+
+        <main id="library-grid" class="grid">
+            <!-- Cards will be injected here -->
+            <div class="card skeleton" style="height: 250px;"></div>
+            <div class="card skeleton" style="height: 250px;"></div>
+            <div class="card skeleton" style="height: 250px;"></div>
+            <div class="card skeleton" style="height: 250px;"></div>
+            <div class="card skeleton" style="height: 250px;"></div>
+            <div class="card skeleton" style="height: 250px;"></div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
