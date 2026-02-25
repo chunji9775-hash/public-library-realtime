@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Public Library Real-time Status",
   "scripts": {
-    "build": "echo 'No build step required for vanilla HTML'"
+    "build": "mkdir -p dist && cp index.html styles.css app.js dist/"
   }
 }
