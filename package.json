@@ -1,0 +1,8 @@
+{
+  "name": "public-library-realtime",
+  "version": "1.0.0",
+  "description": "Public Library Real-time Status",
+  "scripts": {
+    "build": "echo 'No build step required for vanilla HTML'"
+  }
+}
